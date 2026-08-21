@@ -1,0 +1,142 @@
+"use client";
+
+import { motion } from "framer-motion";
+import Image from "next/image";
+import { ArrowDown, Play, Info } from "lucide-react";
+import Container from "@/components/ui/Container";
+import Button from "@/components/ui/Button";
+
+const maskStyle = {
+  WebkitMaskImage: "url(/brand/pattern-blobs.png)",
+  maskImage: "url(/brand/pattern-blobs.png)",
+  WebkitMaskSize: "cover",
+  maskSize: "cover",
+  WebkitMaskRepeat: "no-repeat",
+  maskRepeat: "no-repeat",
+};
+
+export default function Hero() {
+  return (
+    <section id="hero" className="relative overflow-hidden bg-cream pt-24">
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-orange-100/50 via-cream to-violet-100/50" />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -left-40 top-10 h-[28rem] w-[28rem] rounded-full bg-orange-300/30 blur-[110px] animate-float"
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -right-32 top-40 h-[24rem] w-[24rem] rounded-full bg-violet-300/40 blur-[110px] animate-float"
+        style={{ animationDelay: "1.5s" }}
+      />
+
+      <Container className="relative z-10 flex min-h-[calc(100svh-6rem)] flex-col justify-center py-16">
+        <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto]">
+          <div>
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              className="font-display text-4xl uppercase leading-[0.95] tracking-tight text-ink md:text-6xl"
+            >
+              Ça change la vie et le <span className="text-gradient-splash">game</span>
+              <span className="text-orange-500">!</span>
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.35 }}
+              className="mt-3 font-display text-lg uppercase tracking-wide text-violet-600 md:text-xl"
+            >
+              L&apos;onde de soin dans le jeu vidéo
+            </motion.p>
+            <motion.span
+              initial={{ opacity: 0, scaleX: 0 }}
+              animate={{ opacity: 1, scaleX: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              className="mt-4 block h-1 w-16 origin-left rounded-full bg-violet-400"
+            />
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.3 }}
+              className="mt-6 max-w-xl text-lg leading-relaxed text-ink/65"
+            >
+              Splash est un podcast qui s&apos;intéresse à ce qui se joue dans la vraie vie du jeu
+              vidéo et de l&apos;esport.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.35 }}
+              className="mt-4 max-w-xl text-lg font-semibold leading-relaxed text-ink"
+            >
+              À Splash, on ne cherche pas l&apos;opinion, mais la compréhension.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.4 }}
+              className="mt-4 max-w-xl text-base leading-relaxed text-ink/65"
+            >
+              Joueuses et joueurs échangent leurs points de vue avec des professionnels, des
+              chercheurs, des acteurs du secteur. Les différences sont explorées, pas exploitées.
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.45 }}
+              className="mt-10 flex flex-wrap items-center gap-4"
+            >
+              <Button href="/episodes" size="lg">
+                <Play size={18} /> Voir les épisodes
+              </Button>
+              <Button href="/le-projet" variant="secondary" size="lg">
+                <Info size={18} /> En savoir plus sur le projet
+              </Button>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.7, rotate: -8 }}
+            animate={{ opacity: 1, scale: 1, rotate: 0 }}
+            transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+            className="hidden shrink-0 self-start justify-self-end lg:block"
+          >
+            <div className="animate-float">
+              <Image
+                src="/brand/icon-orange.png"
+                alt=""
+                aria-hidden
+                width={160}
+                height={160}
+                className="h-32 w-32 drop-shadow-xl xl:h-40 xl:w-40"
+              />
+            </div>
+          </motion.div>
+        </div>
+      </Container>
+
+      <a
+        href="#decouvrir"
+        aria-label="Défiler vers la section suivante"
+        className="focus-ring absolute bottom-24 left-1/2 z-10 hidden -translate-x-1/2 rounded-full border border-ink/15 bg-white/70 p-2.5 text-ink/60 transition-colors hover:text-ink md:block"
+      >
+        <ArrowDown size={18} />
+      </a>
+
+      <div
+        className="relative z-10 h-16 md:h-24"
+        style={{
+          ...maskStyle,
+          backgroundImage:
+            "linear-gradient(to right, #a794d6 0%, #a794d6 33%, #161616 33%, #161616 66%, #ff5011 66%, #ff5011 100%)",
+        }}
+        aria-hidden
+      />
+    </section>
+  );
+}
