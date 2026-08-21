@@ -6,7 +6,7 @@ import Equipe from "@/components/sections/Equipe";
 export const metadata: Metadata = {
   title: "L'équipe",
   description:
-    "Les personnes qui conçoivent, produisent, portent et font vivre SPLASH : Skillcamp, Bemotion et Reset.",
+    "Les personnes qui conçoivent, produisent, portent et font vivre SPLASH : Skillcamp, Grub Production et Reset.",
 };
 
 export default function EquipePage() {

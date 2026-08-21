@@ -39,7 +39,17 @@ export default function MiniFooter() {
         <span className="h-4 w-px bg-white/15" />
         <p className="text-xs font-medium tracking-wide text-white/60">
           Un projet porté par{" "}
-          <span className="text-white/85">Skillcamp × Bemotion × Reset</span>
+          <span className="text-white/85">
+            Skillcamp × Grub Production ×{" "}
+            <a
+              href="https://reset-association.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring rounded underline decoration-white/30 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
+            >
+              Reset
+            </a>
+          </span>
         </p>
       </div>
     </div>

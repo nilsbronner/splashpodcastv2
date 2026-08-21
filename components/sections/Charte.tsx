@@ -1,6 +1,6 @@
-import { FileText } from "lucide-react";
+import { FileText, ArrowUpRight } from "lucide-react";
 import Section from "@/components/ui/Section";
-import Badge from "@/components/ui/Badge";
+import Button from "@/components/ui/Button";
 
 export default function Charte() {
   return (
@@ -48,11 +48,13 @@ export default function Charte() {
             <div>
               <p className="text-sm font-semibold text-white/90">Texte complet de la Charte</p>
               <p className="mt-1 text-xs leading-relaxed text-white/50">
-                Les articles détaillés de la Charte #PlayGG sont en cours de finalisation.
+                Retrouvez l&apos;intégralité des articles de la Charte #PlayGG sur playgg.fr.
               </p>
             </div>
           </div>
-          <Badge tone="neutral">Bientôt disponible</Badge>
+          <Button href="https://playgg.fr" target="_blank" rel="noopener noreferrer" variant="outlineLight" size="md">
+            playgg.fr <ArrowUpRight size={16} />
+          </Button>
         </div>
       </div>
     </Section>

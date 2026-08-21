@@ -4,7 +4,7 @@ import { team } from "@/lib/data";
 
 const orgTone: Record<string, string> = {
   Skillcamp: "bg-orange-50 text-orange-700",
-  Bemotion: "bg-violet-50 text-violet-700",
+  "Grub Production": "bg-violet-50 text-violet-700",
   Reset: "bg-ink/5 text-ink/60",
 };
 

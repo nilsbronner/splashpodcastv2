@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "inclusion jeu vidéo",
     "esport",
     "Skillcamp",
-    "Bemotion",
+    "Grub Production",
     "Reset",
   ],
   openGraph: {

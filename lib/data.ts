@@ -136,7 +136,7 @@ export const supporters: Supporter[] = [
     href: "#",
   },
   {
-    name: "Bemotion",
+    name: "Grub Production",
     description: "Partenaire production audiovisuelle : podcast, plateau, direction artistique vidéo.",
     tier: "partenaires",
     href: "#",
@@ -219,7 +219,7 @@ export const pressAssets: PressAsset[] = [
 
 export interface TeamMember {
   name: string;
-  org: "Skillcamp" | "Bemotion" | "Reset";
+  org: "Skillcamp" | "Grub Production" | "Reset";
   role: string;
   href?: string;
 }
@@ -233,13 +233,13 @@ export const team: TeamMember[] = [
   },
   {
     name: "Nils",
-    org: "Bemotion",
+    org: "Grub Production",
     role: "Production",
     href: "#",
   },
   {
     name: "Matteo",
-    org: "Bemotion",
+    org: "Grub Production",
     role: "Production",
     href: "#",
   },

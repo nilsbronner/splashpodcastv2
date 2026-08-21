@@ -20,7 +20,9 @@ export default function CharteHome() {
           C&apos;est cette culture esport que nous voulons partager.
         </p>
         <Button
-          href="/charte"
+          href="https://playgg.fr"
+          target="_blank"
+          rel="noopener noreferrer"
           variant="dark"
           size="lg"
           className="mt-8 w-full !bg-white !text-ink hover:!bg-white/90 sm:w-auto"
