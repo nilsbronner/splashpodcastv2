@@ -77,7 +77,7 @@ export default function Cgu() {
       <p>
         SPLASH s&apos;attache à proposer des contenus rigoureux, documentés et fondés sur
         l&apos;échange avec des professionnels, chercheurs et acteurs concernés, notamment avec
-        l&apos;appui de RESET.
+        l&apos;appui de Reset.
       </p>
       <p>
         Malgré cette démarche, les contenus proposés ne sauraient se substituer, lorsqu&apos;un

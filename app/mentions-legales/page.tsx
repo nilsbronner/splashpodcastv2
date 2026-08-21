@@ -8,7 +8,7 @@ export default function MentionsLegales() {
     <LegalPage title="Mentions légales" updated="16 août 2026">
       <p>
         Le site SPLASH est édité par Skillcamp, structure porteuse du projet, en partenariat avec
-        BEMOTION (production audiovisuelle) et l&apos;association RESET (apport scientifique).
+        Bemotion (production audiovisuelle) et l&apos;association Reset (apport scientifique).
       </p>
 
       <h2>Éditeur du site</h2>
@@ -38,8 +38,8 @@ export default function MentionsLegales() {
       <h2>Partenaires du projet</h2>
       <ul>
         <li>Skillcamp — structure porteuse</li>
-        <li>BEMOTION — partenaire production audiovisuelle</li>
-        <li>RESET — association partenaire, apport scientifique</li>
+        <li>Bemotion — partenaire production audiovisuelle</li>
+        <li>Reset — association partenaire, apport scientifique</li>
       </ul>
     </LegalPage>
   );

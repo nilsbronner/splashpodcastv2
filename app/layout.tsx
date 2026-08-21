@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     "inclusion jeu vidéo",
     "esport",
     "Skillcamp",
-    "BEMOTION",
-    "RESET",
+    "Bemotion",
+    "Reset",
   ],
   openGraph: {
     title: "SPLASH — Ça change la vie et le game !",

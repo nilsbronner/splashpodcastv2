@@ -3,7 +3,7 @@
 Proposition de site alternative pour **SPLASH** (« Ça change la vie et le game ! » — l'onde de
 soin dans le jeu vidéo), un podcast qui cherche à comprendre ce qui se joue derrière les préjugés,
 les stéréotypes et les idées reçues dans le jeu vidéo et l'esport. Un projet porté par
-**Skillcamp**, produit par **BEMOTION**, avec l'apport scientifique de **RESET**.
+**Skillcamp**, produit par **Bemotion**, avec l'apport scientifique de **Reset**.
 
 Cette version reprend le système de design et l'architecture technique du site v1, mais réorganise
 entièrement le contenu et la navigation suivant le brief fourni (nom, ton, information
