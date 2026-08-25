@@ -17,7 +17,7 @@ export default function RessourcesTeaser() {
       theme="light"
       eyebrow="Les docs"
       title="Les dossiers documentés"
-      description="Chaque épisode donne naissance à une fiche ressource complète. L'ambition : la plus grande base de ressources francophone sur la santé, l'inclusion et le jeu vidéo."
+      description="Chaque épisode donne naissance à une fiche ressource complète."
       href="/ressources"
       ctaLabel="Découvrir les docs"
       reverse
