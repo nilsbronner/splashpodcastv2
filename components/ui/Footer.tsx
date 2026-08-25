@@ -21,9 +21,23 @@ export default function Footer() {
             </p>
             <p className="mt-6 text-xs uppercase tracking-wide text-white/40">Un projet porté par</p>
             <div className="mt-3 flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-white/70">
-              <span>Skillcamp Strasbourg Esport</span>
+              <a
+                href="https://skillcamp.gg/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="focus-ring rounded underline decoration-white/30 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
+              >
+                Skillcamp Strasbourg Esport
+              </a>
               <span className="text-white/30">·</span>
-              <span>Grub Production</span>
+              <a
+                href="https://www.le-grub.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="focus-ring rounded underline decoration-white/30 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
+              >
+                Grub Production
+              </a>
               <span className="text-white/30">·</span>
               <span>
                 Apport scientifique{" "}
@@ -88,7 +102,24 @@ export default function Footer() {
         <div className="mt-14 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/40 md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} SPLASH — Tous droits réservés.</p>
           <p>
-            Skillcamp × Grub Production ×{" "}
+            <a
+              href="https://skillcamp.gg/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring rounded underline decoration-white/20 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
+            >
+              Skillcamp
+            </a>{" "}
+            ×{" "}
+            <a
+              href="https://www.le-grub.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring rounded underline decoration-white/20 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
+            >
+              Grub Production
+            </a>{" "}
+            ×{" "}
             <a
               href="https://reset-association.vercel.app/"
               target="_blank"

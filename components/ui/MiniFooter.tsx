@@ -40,7 +40,24 @@ export default function MiniFooter() {
         <p className="text-xs font-medium tracking-wide text-white/60">
           Un projet porté par{" "}
           <span className="text-white/85">
-            Skillcamp × Grub Production ×{" "}
+            <a
+              href="https://skillcamp.gg/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring rounded underline decoration-white/30 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
+            >
+              Skillcamp
+            </a>{" "}
+            ×{" "}
+            <a
+              href="https://www.le-grub.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring rounded underline decoration-white/30 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
+            >
+              Grub Production
+            </a>{" "}
+            ×{" "}
             <a
               href="https://reset-association.vercel.app/"
               target="_blank"
